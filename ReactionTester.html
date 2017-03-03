@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+	<title>Reaction Tester</title>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" type="text/css" href="ReactionTester.css">
+</head>
+
+<body>
+	<h1 id="title">Test your reactions!</h1>
+	<p>Click on the boxes and circles as quickly as you can!</p>
+	<p id="timedP">Your time: <span id="time">0s</span></p>
+	
+	<div id="total">
+		<div id="centered">
+		<div id="box"></div>
+	</div>
+	</div>
+
+	<h1 id="Average">Average Time: <span id="avgTime">0</span>s</h1>
+	<p id="details">
+		Total: <span id="totalTries">0</span>
+		<span class="wide"></span>
+		<span id="green">Good: <span id="good">0</span></span>
+		<span class="wide"></span>
+		<span id="orange">OK: <span id="ok">0</span></span>
+		<span class="wide"></span>
+		<span id="red">Poor: <span id="poor">0</span></span>
+		<span class="wide"></span>
+		Best: <span id="best">0</span>s
+	</p>
+	<button id="reset">Reset</button>
+	
+	<script type="text/javascript" src="ReactionTester.js"></script>
+
+</body>
+</html>
